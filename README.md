@@ -39,8 +39,8 @@ Data engineering pipeline for predicting employee attrition. Loads HR employee d
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/employee-attrition-pipeline.git
-cd employee-attrition-pipeline
+git clone https://github.com/pfcperez/employee-attrition-prediction.git
+cd employee-attrition-prediction
 
 # Create virtual environment
 python -m venv venv
@@ -48,11 +48,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
-
-# Download data
-# Kaggle: IBM HR Analytics Attrition Dataset
-# Place Employee.csv in /data/raw/
-```
 
 ---
 
